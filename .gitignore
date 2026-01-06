@@ -1,0 +1,85 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+rl-env/
+venv/
+.env/
+.env.bak/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs & experiment outputs
+# =========================
+logs/
+wandb/
+tensorboard/
+*.log
+
+# =========================
+# RL results / models
+# =========================
+results/
+models/
+checkpoints/
+*.zip
+*.pth
+*.pt
+*.pkl
+
+# =========================
+# Plots / generated figures
+# =========================
+plots/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# =========================
+# Temporary / cache
+# =========================
+.cache/
+tmp/
+temp/
+
+# =========================
+# Python packaging
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Environment configs
+# =========================
+.envrc

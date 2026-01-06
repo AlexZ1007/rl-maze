@@ -1,0 +1,10 @@
+Install python 3.12
+https://www.python.org/downloads/release/python-3128/
+
+Run in cmd (Run as admin)
+py -3.12 -m venv rl-env
+rl-env\Scripts\activate
+python -m pip install -U "pygame==2.6.1"
+python -m pip install jupyter gymnasium matplotlib
+python -m pip install -U minigrid
+python -m pip install --upgrade pip setuptools wheel
